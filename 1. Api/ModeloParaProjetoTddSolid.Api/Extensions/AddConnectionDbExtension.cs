@@ -7,9 +7,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 
-namespace ModeloParaProjetoTddSolid.Api.Configuration
+namespace ModeloParaProjetoTddSolid.Api.Extension
 {
-    public static class AddConnectionDb
+    public static class AddConnectionDbExtension
     {
         public static void AddConnectionDbService(this IServiceCollection services, IConfiguration configuration )
         {

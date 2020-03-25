@@ -6,13 +6,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ModeloParaProjetoTddSolid.Api.Configuration
+namespace ModeloParaProjetoTddSolid.Api.Extension
 {
-    public static class AddSwagger
+    public static class AddSwaggerExtension
     {
-        public static void AddSwaggerServices(this IServiceCollection services)
+        public static IServiceCollection AddSwaggerServices(this IServiceCollection services)
         {
-            services.AddSwaggerGen(c =>
+            return services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo
                 {

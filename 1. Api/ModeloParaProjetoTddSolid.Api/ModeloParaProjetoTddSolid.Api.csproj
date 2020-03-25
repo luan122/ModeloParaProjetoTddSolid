@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\4. Infrastructure\Data\ModeloParaProjetoTddSolid.Data.Data\ModeloParaProjetoTddSolid.Data.Data.csproj" />
+    <ProjectReference Include="..\..\4. Infrastructure\Data\ModeloParaProjetoTddSolid.Data.Data\ModeloParaProjetoTddSolid.Data.Data.csproj" />
   </ItemGroup>
 
 </Project>
